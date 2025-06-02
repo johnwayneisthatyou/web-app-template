@@ -4,10 +4,10 @@ from .config import settings
 
 app = FastAPI(title="Web App API")
 
-# CORS configuration
+# CORS configuration - use the list property
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.allowed_origins,
+    allow_origins=settings.allowed_origins_list,  # Use the property
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
