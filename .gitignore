@@ -1,0 +1,31 @@
+.web
+.states
+*.db
+assets/external/
+__pycache__/
+*.py[cod]
+*.pyc
+frontend/.git/
+.env
+.env.local
+backend/.env
+frontend/.env.local
+.venv/
+backend/.venv/
+.next/
+node_modules/
+frontend/node_modules/
+out/
+.vercel
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
